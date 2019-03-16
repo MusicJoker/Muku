@@ -26,12 +26,7 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="241dp"
         android:layout_height="23dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="341dp" />
 
 </android.support.constraint.ConstraintLayout>
