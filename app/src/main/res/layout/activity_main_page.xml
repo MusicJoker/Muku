@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainPage">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toptoolbar"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationView2"
+        android:layout_width="434dp"
+        android:layout_height="283dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toptoolbar" />
+
+    <TextView
+        android:id="@+id/Text_Logo"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/Text_Logo"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/navigationView2"
+        app:layout_constraintStart_toStartOf="@+id/toptoolbar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
