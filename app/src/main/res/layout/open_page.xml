@@ -20,14 +20,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@mipmap/ic_launcher_round"
-        tools:srcCompat="@android:color/holo_blue_dark" />
+        tools:srcCompat="@mipmap/Logo" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="241dp"
         android:layout_height="23dp"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="341dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </android.support.constraint.ConstraintLayout>
