@@ -3,4 +3,6 @@
     <string name="img_des"> Load_Logo</string>
     <string name="Load">Loading....</string>
     <string name="Text_Logo">le Crew Alpha</string>
+    <string name="Email">E_mail:</string>
+    <string name="Password">Password:</string>
 </resources>

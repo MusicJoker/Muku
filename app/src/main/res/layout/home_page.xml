@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mainPage">
+    tools:context=".MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toptoolbar"
@@ -22,6 +22,7 @@
         android:id="@+id/navigationView2"
         android:layout_width="434dp"
         android:layout_height="283dp"
+        android:background="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
