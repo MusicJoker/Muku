@@ -3,14 +3,23 @@ package com.themuku.lecrew;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+//This is for the home_page and to us this will be the main activity
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+ master
         setContentView(R.layout.activity_main);
         System.out.print("hhh");
 //Booty 
+
+        setContentView(R.layout.home_page);
+
+
+
+
+
 
 
     }
