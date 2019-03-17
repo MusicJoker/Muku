@@ -9,7 +9,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+ master
+        setContentView(R.layout.activity_main);
+        System.out.print("hhh");
+//Booty 
+
         setContentView(R.layout.home_page);
+
 
 
 
