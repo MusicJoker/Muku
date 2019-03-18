@@ -5,4 +5,7 @@
     <string name="Text_Logo">le Crew Alpha</string>
     <string name="Email">E_mail:</string>
     <string name="Password">Password:</string>
+    <string name="HeadText">Who are you again?</string>
+    <string name="logincheckbox">Remember Me </string>
+    <string name="Login">Login</string>
 </resources>
