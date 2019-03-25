@@ -15,13 +15,13 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/Email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/HeadText" />
+        app:layout_constraintTop_toBottomOf="@+id/HeadText"
+        android:autofillHints="" />
     <!--Password Bar-->
     <EditText
         android:id="@+id/Password"
@@ -34,7 +34,7 @@
         android:layout_marginRight="8dp"
         android:ems="10"
         android:hint="@string/Password"
-        android:autofillHints="@string/Password"
+        android:autofillHints=""
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,8 +42,8 @@
     <!--Button Bar-->
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="187dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="88dp"
@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+    <!--Login Button-->
     <CheckBox
         android:id="@+id/rem_Box"
         android:layout_width="wrap_content"
@@ -83,8 +83,24 @@
         android:layout_marginRight="8dp"
         android:text="@string/logincheckbox"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintHorizontal_bias="0.237"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Password" />
+    <!--Sign Up Button-->
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/sign_Up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </android.support.constraint.ConstraintLayout>

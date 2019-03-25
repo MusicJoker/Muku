@@ -3,9 +3,10 @@
     <string name="img_des"> Load_Logo</string>
     <string name="Load">Loading....</string>
     <string name="Text_Logo">le Crew Alpha</string>
-    <string name="Email">E_mail:</string>
+    <string name="Email">Email:</string>
     <string name="Password">Password:</string>
     <string name="HeadText">Who are you again?</string>
     <string name="logincheckbox">Remember Me </string>
-    <string name="Login">Login</string>
+    <string name="Login">Log in</string>
+    <string name="sign_Up">Sign Up Fam!</string>
 </resources>
